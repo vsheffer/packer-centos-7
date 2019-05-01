@@ -3,6 +3,13 @@
   become: yes
   gather_facts: yes
 
+  vars:
+    docker_users:
+      - vagrant
+
   roles:
     - geerlingguy.nfs
     - geerlingguy.packer-rhel
+    - wtanaka.gcloud_sdk
+    - andrewrothstein.kubectl
+    - geerlingguy.docker
