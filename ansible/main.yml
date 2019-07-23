@@ -6,10 +6,22 @@
   vars:
     docker_users:
       - vagrant
+    go_custom_mirror: https://storage.googleapis.com/golang
+    go_version: 1.12.5
+    GOPATH: /home/vagrant/go
+    GOROOT: /usr/local/go
+    GOPROXY: https://proxy.golang.org
+    pyfsrc_version: 3.6.9
+    pyfsrc_make_default: no
+    pyfsrc_ssl_support: yes
+    pyfsrc_install_pip: yes
 
   roles:
+    - natbusa.centos-python
+    - fubarhouse.golang
     - geerlingguy.nfs
     - geerlingguy.packer-rhel
     - wtanaka.gcloud_sdk
     - andrewrothstein.kubectl
     - geerlingguy.docker
+    - andrewrothstein.cfssl

@@ -28,7 +28,7 @@
       "boot_wait": "10s",
       "disk_size": 81920,
       "guest_os_type": "RedHat_64",
-      "headless": true,
+      "headless": false,
       "http_directory": "http",
       "iso_urls": [
         "CentOS-7-x86_64-Minimal-1810.iso",
@@ -49,7 +49,7 @@
           "modifyvm",
           "{{.Name}}",
           "--memory",
-          "512"
+          "12000"
         ],
         [
           "modifyvm",

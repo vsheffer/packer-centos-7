@@ -1,6 +1,9 @@
 ---
+- src: natbusa.centos-python
+- src: fubarhouse.golang
 - src: geerlingguy.packer-rhel
 - src: geerlingguy.nfs
 - src: wtanaka.gcloud_sdk
 - src: andrewrothstein.kubectl
 - src: geerlingguy.docker
+- src: andrewrothstein.cfssl
