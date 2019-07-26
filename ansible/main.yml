@@ -11,13 +11,9 @@
     GOPATH: /home/vagrant/go
     GOROOT: /usr/local/go
     GOPROXY: https://proxy.golang.org
-    pyfsrc_version: 3.6.9
-    pyfsrc_make_default: no
-    pyfsrc_ssl_support: yes
-    pyfsrc_install_pip: yes
 
   roles:
-    - natbusa.centos-python
+    - andrewrothstein.anaconda
     - fubarhouse.golang
     - geerlingguy.nfs
     - geerlingguy.packer-rhel

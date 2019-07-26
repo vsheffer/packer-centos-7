@@ -1,5 +1,5 @@
 ---
-- src: natbusa.centos-python
+- src: andrewrothstein.anaconda
 - src: fubarhouse.golang
 - src: geerlingguy.packer-rhel
 - src: geerlingguy.nfs
