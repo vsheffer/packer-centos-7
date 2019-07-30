@@ -4,8 +4,7 @@
 
 **Pre-built Vagrant Box**:
 
-  - [`vagrant init geerlingguy/centos7`](https://vagrantcloud.com/geerlingguy/boxes/centos7)
-  - See older versions: http://files.midwesternmac.com/
+  - [`vagrant init vsheffer/centos7`](https://vagrantcloud.com/vsheffer/boxes/centos7)
 
 This example build configuration installs and configures CentOS 7 x86_64 minimal using Ansible, and then generates a Vagrant box file for VirtualBox.
 
